@@ -13,7 +13,7 @@ My name is Li Hang.
    - [Other Topics](#other-topics)
 
 ## Conference Papers
-This is a collection of conference papers that interest me. The emphasis is focused on, but not limited to neural networks on silicon. Papers of significance are marked in **bold**. My comments are marked in *italic*.
+This is a collection of conference papers that interest me. The emphasis is focused on, but not limited to neuromorphic cognitive computing.
 
 ###  FPGA
 - **An OpenCL Deep Learning Accelerator on Arria 10.** (Intel)
@@ -47,7 +47,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
     - *Run-time management: Generates tuning tables through accuracy tuning, and calibrate accuracy+runtime (select the best tuning table) during the long-term execution.*
 - Supporting Address Translation for Accelerator-Centric Architectures. (UCLA)
 
-### 2017 ASPLOS
+###  ASPLOS
 - **Tetris: Scalable and Efficient Neural Network Acceleration with 3D Memory.** (Stanford University)
   - *Move accumulation operations close to the DRAM banks.*
   - *Develop a hybrid partitioning scheme that parallelizes the NN computations over multiple accelerators.*
@@ -147,6 +147,13 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - DeftNN: Addressing Bottlenecks for DNN Execution on GPUs via Synapse Vector Elimination and Near-compute Data Fission. (Univ. of Michigan, Univ. of Nevada)
 - Data Movement Aware Computation Partitioning. (PSU, TOBB University of Economics and Technology)
   - *Partition computation on a manycore system for near data processing.*
+  
+###  Knowledge Graphs
+- **ATOMIC- An Atlas of Machine Commonsense for If-Then Reasoning.** (University of Washington)
+- **Deep Knowledge Tracing.** (Stanford University, Google)
+- **Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks.** (Amazon)
+- **Individualized Bayesian Knowledge Tracing Models.** (Carnegie Mellon University)
+- **Performance Factors Analysis – A New Alternative to Knowledge Tracing.** (Carnegie Mellon University)
 
 ## Important Topics
 This is a collection of papers on other important topics related to neural networks. Papers of significance are marked in **bold**. My comments are in marked in *italic*.
