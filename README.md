@@ -15,7 +15,7 @@ My name is Li Hang.
 ## Conference Papers
 This is a collection of conference papers that interest me. The emphasis is focused on, but not limited to neural networks on silicon. Papers of significance are marked in **bold**. My comments are marked in *italic*.
 
-### 2017 FPGA
+###  FPGA
 - **An OpenCL Deep Learning Accelerator on Arria 10.** (Intel)
   - *Minimum bandwidth requirement: All the intermediate data in AlexNet's CONV layers are cached in the on-chip buffer, so their architecture is compute-bound.*
   - *Reduced operations: Winograd transformation.*
@@ -28,7 +28,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - **Frequency Domain Acceleration of Convolutional Neural Networks on CPU-FPGA Shared Memory System.** (USC)
 - **Optimizing Loop Operation and Dataflow in FPGA Acceleration of Deep Convolutional Neural Networks.** (Arizona State University)
 
-### 2017 ISSCC
+###  ISSCC
 - **A 2.9TOPS/W Deep Convolutional Neural Network SoC in FD-SOI 28nm for Intelligent Embedded Systems.** (ST)
 - **DNPU: An 8.1TOPS/W Reconfigurable CNN-RNN Processor for General Purpose Deep Neural Networks.** (KAIST)
 - **ENVISION: A 0.26-to-10TOPS/W Subword-Parallel Computational Accuracy-Voltage-Frequency-Scalable Convolutional Neural Network Processor in 28nm FDSOI.** (KU Leuven)
@@ -37,7 +37,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - A Scalable Speech Recognizer with Deep-Neural-Network Acoustic Models and Voice-Activated Power Gating (MIT)
 - A 0.62mW Ultra-Low-Power Convolutional-Neural-Network Face Recognition Processor and a CIS Integrated with Always-On Haar-Like Face Detector. (KAIST)
 
-### 2017 HPCA
+###  HPCA
 - **FlexFlow: A Flexible Dataflow Accelerator Architecture for Convolutional Neural Networks.** (Chinese Academy of Sciences)
 - **PipeLayer: A Pipelined ReRAM-Based Accelerator for Deep Learning.** (University of Pittsburgh, University of Southern California)
 - Towards Pervasive and User Satisfactory CNN across GPU Microarchitectures. (University of Florida)
@@ -53,7 +53,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
   - *Develop a hybrid partitioning scheme that parallelizes the NN computations over multiple accelerators.*
 - SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing. (Syracuse University, USC, The City College of New York)
 
-### 2017 ISCA
+###  ISCA
 - **Maximizing CNN Accelerator Efficiency Through Resource Partitioning.** (Stony Brook University)
   - *An Extension of their FPL'16 paper.*
 - **In-Datacenter Performance Analysis of a Tensor Processing Unit.** (Google)
@@ -65,7 +65,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - LogCA: A High-Level Performance Model for Hardware Accelerators. (AMD, University of Wisconsin-Madison)
 - APPROX-NoC: A Data Approximation Framework for Network-On-Chip Architectures. (TAMU)
 
-### 2017 FCCM
+###  FCCM
 - **Escher: A CNN Accelerator with Flexible Buffering to Minimize Off-Chip Transfer.** (Stony Brook University)
 - **Customizing Neural Networks for Efficient FPGA Implementation.**
 - **Evaluating Fast Algorithms for Convolutional Neural Networks on FPGAs.**
@@ -76,7 +76,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - FPGA accelerated Dense Linear Machine Learning: A Precision-Convergence Trade-off.
 - A Configurable FPGA Implementation of the Tanh Function using DCT Interpolation.
 
-### 2017 DAC
+###  DAC
 - **Deep^3: Leveraging Three Levels of Parallelism for Efficient Deep Learning.** (UCSD, Rice)
 - **Real-Time meets Approximate Computing: An Elastic Deep Learning Accelerator Design with Adaptive Trade-off between QoS and QoR.** (CAS)
   - *I'm not sure whether the proposed tuning scenario and direction are reasonable enough to find out feasible solutions.*
@@ -98,7 +98,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - SABER: Selection of Approximate Bits for the Design of Error Tolerant Circuits. (University of Minnesota, TAMU)
 - On Quality Trade-off Control for Approximate Computing using Iterative Training. (SJTU, CUHK)
 
-### 2017 DATE
+###  DATE
 - **DVAFS: Trading Computational Accuracy for Energy Through Dynamic-Voltage-Accuracy-Frequency-Scaling.** (KU Leuven)
 - **Accelerator-friendly Neural-network Training: Learning Variations and Defects in RRAM Crossbar.** (Shanghai Jiao Tong University, University of Pittsburgh, Lynmax Research)
 - **A Novel Zero Weight/Activation-Aware Hardware Architecture of Convolutional Neural Network.** (Seoul National University)
@@ -112,13 +112,13 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - Energy-Efficient Approximate Multiplier Design using Bit Significance-Driven Logic Compression. (Newcastle University)
 - Revamping Timing Error Resilience to Tackle Choke Points at NTC Systems. (Utah State University)
 
-### 2017 VLSI
+###  VLSI
 - **A 3.43TOPS/W 48.9pJ/Pixel 50.1nJ/Classification 512 Analog Neuron Sparse Coding Neural Network with On-Chip Learning and Classification in 40nm CMOS.** (University of Michigan, Intel)
 - **BRein Memory: A 13-Layer 4.2 K Neuron/0.8 M Synapse Binary/Ternary Reconfigurable In-Memory Deep Neural Network Accelerator in 65 nm CMOS.** (Hokkaido University, Tokyo Institute of Technology, Keio University)
 - **A 1.06-To-5.09 TOPS/W Reconfigurable Hybrid-Neural-Network Processor for Deep Learning Applications.** (Tsinghua University)
 - **A 127mW 1.63TOPS sparse spatio-temporal cognitive SoC for action classification and motion tracking in videos.** (University of Michigan)
 
-### 2017 ICCAD
+###  ICCAD
 - **AEP: An Error-bearing Neural Network Accelerator for Energy Efficiency and Model Protection.** (University of Pittsburgh)
 - VoCaM: Visualization oriented convolutional neural network acceleration on mobile system. (George Mason University, Duke)
 - AdaLearner: An Adaptive Distributed Mobile Learning System for Neural Networks. (Duke)
@@ -128,7 +128,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - Fault injection attack on deep neural network. (CUHK)
 - ORCHARD: Visual Object Recognition Accelerator Based on Approximate In-Memory Processing. (UCSD)
 
-### 2017 HotChips
+###  HotChips
 - **A Dataflow Processing Chip for Training Deep Neural Networks.** (Wave Computing)
 - **Brainwave: Accelerating Persistent Neural Networks at Datacenter Scale.** (Microsoft)
 - **DNN ENGINE: A 16nm Sub-uJ Deep Neural Network Inference Accelerator for the Embedded Masses.** (Harvard, ARM)
@@ -138,7 +138,7 @@ This is a collection of conference papers that interest me. The emphasis is focu
 - Knights Mill: Intel Xeon Phi Processor for Machine Learning. (Intel)
 - XPU: A programmable FPGA Accelerator for diverse workloads. (Baidu)
 
-### 2017 MICRO
+###  MICRO
 - **Bit-Pragmatic Deep Neural Network Computing.** (NVIDIA, University of Toronto)
 - **CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices.** (Syracuse University, City University of New York, USC, California State University, Northeastern University)
 - **DRISA: A DRAM-based Reconfigurable In-Situ Accelerator.** (UCSB, Samsung)
