@@ -1,4 +1,3 @@
-# neuro
 # Neuromorphic Cognitive Computing
 
 My name is Li Hang.
